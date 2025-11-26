@@ -1,0 +1,198 @@
+<!--Micaela Loja-Ramon, IS117-001, Fall 2025-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skin Net</title>
+    <link rel="icon" href="images/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <a class="navbar-brand" href="index.html"><img src="images/webicon.png" alt ="icon"></a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="learn.html">Learn More</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Skincare Guide
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="breakdown.html">Product Breakdown</a>
+                            <a class="dropdown-item" href="know.html">Getting to Know You</a>
+                            <a class="dropdown-item" href="routine.html">Building Routine</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacts and Newsletter</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="" style="margin-left:auto; display:flex; align-items:center;">
+                <input
+                        type="text"
+                        name="search"
+                        placeholder="Search"
+                        style="padding:6px 10px; border:1px solid white; color:gray; width:160px; background:transparent; outline:none;"
+                >
+                <button type="submit"
+                        style="padding:6px 10px; border:1px solid white; border-left:none; background:none;">
+                    <img src="images/search_white.png" alt="search icon" style="width:18px; height:18px;">
+                </button>
+            </form>
+        </nav>
+
+        <div class="card-area">
+
+            <div class="card text-white">
+                <img class="card-img-top" src="images/woman.png" alt="Card image">
+                <div class="card-entire">
+                    <h4 class="card-title">Normal Skin</h4>
+                    <p class="card-text">
+                        Balanced, not too oily or dry — the easy-going skin type.
+                        <br><strong>What to focus on:</strong> Maintain balance and prevent future damage.
+                    </p>
+                    <p class="card-text">
+                        <strong>Routine essentials:</strong><br>
+                        Gentle cleanser and lightweight moisturizer.<br>
+                        Daily broad-spectrum sunscreen (SPF 30+).<br>
+                        Occasional exfoliation with mild acids like lactic or mandelic.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+
+            <div class="card text-white">
+                <img class="card-img-top" src="images/lotion.png" alt="Card image">
+                <div class="card-entire">
+                    <h4 class="card-title">Dry Skin</h4>
+                    <p class="card-text">
+                        Feels tight, flaky, or dull? Your skin needs more moisture and protection.
+                        <br><strong>What to focus on:</strong> Hydration and barrier support.
+                    </p>
+                    <p class="card-text">
+                        <strong>Routine essentials:</strong><br>
+                        Cream cleanser + rich moisturizer (ceramides/hyaluronic).<br>
+                        Niacinamide for barrier strength.<br>
+                        Gentle renewal with PHAs.<br>
+                        Sunscreen even in winter.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+
+            <div class="card text-white">
+                <img class="card-img-top" src="images/cleansing.png" alt="Card image">
+                <div class="card-entire">
+                    <h4 class="card-title">Oily Skin</h4>
+                    <p class="card-text">
+                        Shine or larger pores? Oily skin produces excess sebum but still needs hydration.
+                        <br><strong>What to focus on:</strong> Balance oil, don’t strip it.
+                    </p>
+                    <p class="card-text">
+                        <strong>Routine essentials:</strong><br>
+                        Salicylic/tea tree foaming cleanser.<br>
+                        Oil-free moisturizer.<br>
+                        Niacinamide for shine control.<br>
+                        Non-comedogenic SPF.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+
+            <div class="card text-white">
+                <img class="card-img-top" src="images/before-after.png" alt="Card image">
+                <div class="card-entire">
+                    <h4 class="card-title">Combination Skin</h4>
+                    <p class="card-text">
+                        Oily T-zone, dry elsewhere — very common.
+                        <br><strong>What to focus on:</strong> Treat zones differently.
+                    </p>
+                    <p class="card-text">
+                        <strong>Routine essentials:</strong><br>
+                        Gel cleanser.<br>
+                        Lightweight but hydrating moisturizer.<br>
+                        Gentle AHA/BHA exfoliation 2× weekly.<br>
+                        Daily SPF.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+
+            <div class="card text-white">
+                <img class="card-img-top" src="images/sensitive.png" alt="Card image">
+                <div class="card-entire">
+                    <h4 class="card-title">Sensitive Skin</h4>
+                    <p class="card-text">
+                        Easily irritated or reactive.
+                        <br><strong>What to focus on:</strong> Calm + barrier repair.
+                    </p>
+                    <p class="card-text">
+                        <strong>Routine essentials:</strong><br>
+                        Fragrance-free cleanser.<br>
+                        Ceramide + niacinamide moisturizer.<br>
+                        Avoid harsh acids.<br>
+                        Mineral SPF (zinc/titanium).
+                    </p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+
+            <div class="card text-white">
+                <img class="card-img-top" src="images/face-cream.png" alt="Card image">
+                <div class="card-entire">
+                    <h4 class="card-title">General Tips & Tricks</h4>
+                    <p class="card-text">
+                        <strong>Simplify.</strong> Cleanse, moisturize, protect.<br>
+                        <strong>Be consistent.</strong> Results come from habits.<br>
+                        <strong>Damp skin.</strong> Locks hydration better.<br>
+                        <strong>Never skip SPF.</strong> Best anti-aging step.<br>
+                        <strong>Introduce slowly.</strong> Let skin adjust.<br>
+                        <strong>Sleep + water.</strong> Your skin shows it.
+                    </p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Micaela Loja-Ramon, 2025 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
